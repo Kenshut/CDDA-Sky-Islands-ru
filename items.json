@@ -4,8 +4,8 @@
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "consumption_effect_on_conditions": [ "EOC_healall" ],
-    "name": { "str": "quickheal pill" },
-    "description": "This pseudomagical pill will heal all your damaged parts, but only if swallowed while on your sanctuary island. No reason to bring this into the field.",
+    "name": { "str": "таблетка восстановления " },
+    "description": "Эта псевдомагическая пилюля исцелит все ваши поврежденные части тела, но только если ее проглотить на вашем острове-убежище. Нет причин выносить это на поле боя.",
     "weight": "15 g",
     "volume": "5 ml",
     "looks_like": "panacea",
@@ -19,8 +19,8 @@
   {
     "id": "artifactbox",
     "type": "TOOL",
-    "name": { "str": "potential artifact" },
-    "description": "A strange cube, deceptively bulky and heavy. It flickers and shimmers, a thousand possible realities stretching out in as many directions. It can be activated by touch to permanently transform it into an artifact of truly random design.",
+    "name": { "str": "потенциальный артефакт" },
+    "description": "Странный куб, обманчиво громоздкий и тяжелый. Она мерцает и переливается, тысячи возможных реальностей простираются во множестве направлений. Его можно активировать прикосновением, чтобы навсегда превратить в случайный артефакт.",
     "volume": "100 L",
     "weight": "10 kg",
     "material": [ "powder" ],
@@ -29,7 +29,7 @@
     "color": "light_green",
     "use_action": {
       "type": "unpack",
-      "use_message": "The object's superposition collapses and it becomes a singular artifact!",
+      "use_message": "Суперпозиция объекта разрушается, и он становится уникальным артефактом!",
       "group": "random_artifact_pool"
     }
   },
@@ -75,8 +75,8 @@
     "id": "bundle_splinter",
     "type": "GENERIC",
     "category": "spare_parts",
-    "name": { "str": "bundle of splinters", "str_pl": "bundles of splinters" },
-    "description": "A hundred shards of wood roughly tied together for easier transport.  Disassemble to untie them.",
+    "name": { "str": "связка щепок", "str_pl": "связки щепок" },
+    "description": "Сотня деревянных щепок, грубо связанных вместе для удобства транспортировки.  Разберите, чтобы развязать их.",
     "//": "total volume is equal to 10 planks, assuming uniformity and tight stacking",
     "volume": "25000 ml",
     "weight": "15000 g",

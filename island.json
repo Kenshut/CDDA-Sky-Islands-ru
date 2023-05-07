@@ -2,7 +2,7 @@
   {
     "type": "overmap_terrain",
     "id": [ "sky_island_core", "sky_island_edge", "sky_island_corner" ],
-    "name": "sky island",
+    "name": "Небесный остров",
     "sym": "#",
     "color": "c_white",
     "looks_like": "field",

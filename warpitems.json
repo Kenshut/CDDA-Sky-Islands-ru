@@ -2,11 +2,11 @@
   {
     "type": "TOOL",
     "id": "warpheal_stone",
-    "name": { "str_sp": "Salve of Forgiveness" },
+    "name": { "str_sp": "Мазь прощения" },
     "color": "magenta",
     "use_action": {
       "type": "effect_on_conditions",
-      "description": "Forgiveness to the innocent.",
+      "description": "Прощение невинным.",
       "effect_on_conditions": [ "EOC_HEAL_NEWBIE" ]
     },
     "volume": "250 ml",
@@ -14,29 +14,29 @@
     "looks_like": "slime_scrap",
     "symbol": "@",
     "flags": [ "ALLOWS_REMOTE_USE", "UNBREAKABLE" ],
-    "description": "A boon from whatever powers control the warpstream, meant to make your first excursions safer. Using this strange blue-black goop will instantly heal your wounds and return you to health, but only while in your island sanctuary. Most importantly, this will only work while you are getting started. After you have survived a few return trips, it becomes a useless goo."
+    "description": "Дар от тех сил, что контролируют искажение пространства, предназначенный для того, чтобы сделать ваши первые экскурсии более безопасными. Использование этой странной сине-черной жидкости мгновенно залечит ваши раны и вернет вам здоровье, но только во время пребывания в вашем островном убежище. Самое главное, что это будет работать только тогда, когда вы только начинаете. После того, как вы переживете несколько обратных поездок, она превратится в бесполезную слизь."
   },
   {
     "type": "TOOL",
     "id": "warpstat_stone",
-    "name": { "str": "Stat Stone" },
+    "name": { "str": "Камень статистики" },
     "color": "magenta",
-    "use_action": { "type": "effect_on_conditions", "description": "What are your numbers?", "effect_on_conditions": [ "EOC_statcheck" ] },
+    "use_action": { "type": "effect_on_conditions", "description": "Каковы твои числа?", "effect_on_conditions": [ "EOC_statcheck" ] },
     "volume": "250 ml",
     "weight": "10 g",
     "looks_like": "spiral_stone",
     "symbol": "@",
     "flags": [ "ALLOWS_REMOTE_USE", "UNBREAKABLE" ],
-    "description": "A special stone slab that you can activate to check your expedition statistics."
+    "description": "Камень, при активации которого, вы сможете узнать свою статистику экспедиции."
   },
   {
     "type": "TOOL",
     "id": "warp_portalstorm_ender",
-    "name": { "str": "Portal Storm Warding Stone" },
+    "name": { "str": "Камень, защищающий от портального шторма" },
     "color": "magenta",
     "use_action": {
       "type": "effect_on_conditions",
-      "description": "Go away, come again another day.",
+      "description": "Уходи, приходи снова в другой раз.",
       "effect_on_conditions": [ "EOC_CHECK_ISLANDSTORM" ]
     },
     "volume": "250 ml",
@@ -44,16 +44,16 @@
     "looks_like": "spiral_stone",
     "symbol": "@",
     "flags": [ "ALLOWS_REMOTE_USE", "UNBREAKABLE" ],
-    "description": "This faintly humming purplish stone is meant to ward portal storms away from the island. When used on the sanctuary island during a portal storm, it will clear the weather. No effect if used earthside."
+    "description": "Этот слегка жужжащий пурпурный камень предназначен для того, чтобы отгонять портальные штормы от острова. При использовании на острове санктуарий во время портального шторма погода улучшится. Никакого эффекта при использовании на земле."
   },
   {
     "type": "TOOL",
     "id": "warpdifficulty_stone",
-    "name": { "str": "Difficulty Adjuster" },
+    "name": { "str": "Регулятор сложности" },
     "color": "magenta",
     "use_action": {
       "type": "effect_on_conditions",
-      "description": "Choose your challenge.",
+      "description": "Выберите свою сложность.",
       "effect_on_conditions": [ "EOC_difficultycheck0" ]
     },
     "volume": "250 ml",
@@ -61,12 +61,12 @@
     "looks_like": "spiral_stone",
     "symbol": "@",
     "flags": [ "ALLOWS_REMOTE_USE", "UNBREAKABLE" ],
-    "description": "A special stone slab that lets you change how difficult you want your expedition time limits to be."
+    "description": "Специальная каменная плита, которая позволяет вам изменять, насколько сложными вы хотите сделать временные ограничения вашей экспедиции."
   },
   {
     "type": "ARMOR",
     "id": "warpbag_base",
-    "name": { "str": "warped bag" },
+    "name": { "str": "Пространственный рюкзак" },
     "symbol": "[",
     "color": "light_gray",
     "material": [ "alien_resin" ],
@@ -91,7 +91,7 @@
     "weight": "400 g",
     "volume": "2000 ml",
     "longest_side": "11 meter",
-    "description": "This is a template you shouldn't actually see.",
+    "description": "Это шаблон, который вы на самом деле не должны видеть.",
     "armor": [
       {
         "coverage": 0,
@@ -105,9 +105,9 @@
   {
     "type": "ARMOR",
     "id": "warpwoodbag",
-    "name": { "str": "warped lumberjack's bag" },
+    "name": { "str": "Пространственный рюкзак лесоруба" },
     "copy-from": "warpbag_base",
-    "description": "This bag shimmers before your eyes, glinting in perfectly vertical slivers of purplish light. No matter how much you pack into it, it never seems to grow heavier, and its interior is a great yawning gullet of space the items seem to simply disappear into. It seems a remarkably picky eater, however, and will only swallow up planks, boards, wood panels, sticks, and similar wooden construction items. It also outright refuses to be packed inside of other bags.",
+    "description": "Эта сумка переливается у вас перед глазами, переливаясь идеально вертикальными полосами пурпурного света. Независимо от того, сколько вы в него упаковываете, кажется, что он никогда не становится тяжелее, а его внутренности представляют собой огромную зияющую пропасть пространства, в которой предметы, кажется, просто исчезают. Однако он, по-видимому, на редкость разборчивый в еде и поглощает только доски, щитки, деревянные панели, палки и подобные деревянные конструкционные элементы. Он также категорически отказывается упаковываться в другие пакеты.",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -143,9 +143,9 @@
   {
     "type": "ARMOR",
     "id": "warpdirtbag",
-    "name": { "str": "warped excavator's bag" },
+    "name": { "str": "Пространственный рюкзак землекопа" },
     "copy-from": "warpbag_base",
-    "description": "This bag shimmers before your eyes, glinting in perfectly vertical slivers of purplish light. No matter how much you pack into it, it never seems to grow heavier, and its interior is a great yawning gullet of space the items seem to simply disappear into. This is surely the biggest of its type. It seems a remarkably picky eater, however, and will only swallow up soil, sand, gravel, clay, and most common stones. It does seem, however, to also yield to a handful of construction materials like raw limestone, cement, concrete, and mortar, to name a few. It also outright refuses to be packed inside of other bags.",
+    "description": "Эта сумка переливается у вас перед глазами, переливаясь идеально вертикальными полосами пурпурного света. Независимо от того, сколько вы в него упаковываете, кажется, что он никогда не становится тяжелее, а его внутренности представляют собой огромную зияющую пропасть пространства, в которой предметы, кажется, просто исчезают. Это, безусловно, самый большой в своем роде. Однако он, по-видимому, чрезвычайно придирчивый едок и поглощает только почву, песок, гравий, глину и большинство обычных камней. Однако, похоже, он также уступает горстке строительных материалов, таких как необработанный известняк, цемент, бетон и строительный раствор, и это лишь некоторые из них. Он также категорически отказывается упаковываться в другие пакеты.",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -181,9 +181,9 @@
   {
     "type": "ARMOR",
     "id": "warpmetalbag",
-    "name": { "str": "warped scrapper's bag" },
+    "name": { "str": "Пространственный рюкзак металлолома" },
     "copy-from": "warpbag_base",
-    "description": "This bag shimmers before your eyes, glinting in perfectly vertical slivers of purplish light. No matter how much you pack into it, it never seems to grow heavier, and its interior is a great yawning gullet of space the items seem to simply disappear into. It is a remarkably picky eater, however, and seems to yearn for lumps of raw metal like steel and scrap. It does, however, also yield to a few particularly dense processed forms, like pipes, sheet metal, steel frames, and metal plating. It also outright refuses to be packed inside of other bags.",
+    "description": "Эта сумка переливается у вас перед глазами, переливаясь идеально вертикальными полосами пурпурного света. Независимо от того, сколько вы в него упаковываете, кажется, что он никогда не становится тяжелее, а его внутренности представляют собой огромную зияющую пропасть пространства, в которой предметы, кажется, просто исчезают. Однако он на редкость разборчив в еде и, похоже, жаждет кусков необработанного металла, таких как сталь и металлолом. Однако он также уступает нескольким особо плотным обрабатываемым формам, таким как трубы, листовой металл, стальные рамы и металлическая обшивка. Он также категорически отказывается упаковываться в другие пакеты.",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -235,9 +235,9 @@
   {
     "type": "ARMOR",
     "id": "warphaulbag",
-    "name": { "str": "warped hauler's harness", "str_pl": "warped hauler's harnesses" },
+    "name": { "str": "Пространственная сбруя"},
     "copy-from": "warpbag_base",
-    "description": "A looped pair of shimmering blue-black straps that can be worn over the shoulders like a harness. They make hauling effortless, and one could easily cart home anything from an engine block to a bull moose with this, while still keeping hands free. The downside is that no matter how you might try, they only seem to be able to support a single item. It also outright refuses to be packed inside of other bags.",
+    "description": "Пара мерцающих сине-черных ремешков с петлями, которые можно носить на плечах как сбрую. Они облегчают транспортировку, и с их помощью можно легко отвезти домой все, что угодно, от блока цилиндров до лося, сохраняя при этом руки свободными. Недостатком является то, что, как бы вы ни старались, кажется, что они способны поддерживать только один элемент. Он также категорически отказывается упаковываться в другие пакеты.",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -256,8 +256,8 @@
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "consumption_effect_on_conditions": [ "EOC_warpextender" ],
-    "name": { "str": "earthbound pill" },
-    "description": "This pseudomagical pill extends the amount of time you can stay earthside by 4 pulses, or about 50% of a normal trip. They're precious, but should help buy time for a difficult extract.",
+    "name": { "str": "Таблетка стабилизатор" },
+    "description": "Эта псевдомагическая таблетка продлевает время вашего пребывания на земле на 4 импульса, или примерно на 50% от обычного времени полета. Они ценны, но должны помочь выиграть время для сложного извлечения.",
     "weight": "15 g",
     "volume": "5 ml",
     "looks_like": "panacea",
@@ -271,9 +271,9 @@
   {
     "id": "warphome",
     "type": "TOOL",
-    "name": { "str": "homeward mote" },
+    "name": { "str": "пыль, возвращающаяся домой" },
     "use_action": { "type": "effect_on_conditions", "description": "A hasty escape.", "effect_on_conditions": [ "EOC_homewardmote" ] },
-    "description": "Though visibly little more than a glowing dustbunny, this strange ethereal mote of warp essence reveals, on closer inspection, something more. A tiny, twisting, half-visible thread of shimmering bluish-purple trails away into the sky and far out of sight, unimpeded by any obstacles. \n\nTaking this rare and valuable artifact with you on an expedition is essentially buying life insurance. If you die with this mote in your inventory, you will instead be restored to full health and brought home, WITH all items and equipment carried. But this effect will only last for a single expedition. Even if you extract safely, any and all motes carried on your person when you return home will be DESTROYED.",
+    "description": "Хотя на вид это немногим больше, чем светящийся пыльный шарик, эта странная эфирная частичка сущности искажённого пространства при ближайшем рассмотрении обнаруживает нечто большее. Крошечная, извивающаяся, наполовину видимая нить мерцающего голубовато-фиолетового цвета уходит в небо и исчезает из виду, не встречая никаких препятствий. Брать этот редкий и ценный артефакт с собой в экспедицию - это, по сути, покупка страховки жизни. Если вы умрете с этой пылинкой в вашем инвентаре, вместо этого вам восстановят полное здоровье и доставят домой со всеми предметами и снаряжением. Но этот эффект продлится только в течение одной экспедиции. Даже если вы извлечете его в целости и сохранности, все пылинки, которые были при вас, когда вы вернетесь домой, будут УНИЧТОЖЕНЫ.",
     "weight": "15 g",
     "volume": "5 ml",
     "looks_like": "fishing_hook_basic",
@@ -285,8 +285,8 @@
   {
     "id": "warp_carrier",
     "type": "TOOL",
-    "name": { "str": "warped animal carrier" },
-    "description": "A hand-sized cage with a shimmering portal at its aperture. Despite being shaped more like a cat carrier, the power of warp enables it to capture creatures far bigger than you. This may be your best bet for bringing animals home to your island sanctuary. Activate to capture an adjacent animal, or to release a carried animal.",
+    "name": { "str": "Пространственный перевозчик животных" },
+    "description": "Клетка размером с ладонь с мерцающим порталом в отверстии. Несмотря на то, что по форме он больше похож на кошачью переноску, сила искажённого пространства позволяет ему захватывать существ гораздо крупнее вас. Возможно, это ваш лучший выбор для того, чтобы привезти животных домой, в свой островной заповедник. Активируется для захвата соседнего животного или для освобождения переносимого животного.",
     "weight": "1000 g",
     "volume": "5 L",
     "material": [ "alien_resin" ],
@@ -299,8 +299,8 @@
   },
   {
     "id": "warp_autodoc_inert",
-    "name": { "str": "Autodoc copyplate (inert)", "str_pl": "Autodoc copyplates (inert)" },
-    "description": "This strange obsidian-colored plate is capable of mimicking the advanced tech found within a modern Autodoc, and can be used to create a working copy at your sanctuary. However, it is inert in its current state and must first be imprinted on a working Autodoc. To do so, find an Autodoc during an expedition and use the construction menu to imprint this plate.",
+    "name": { "str": "Копировальная табличка автодока (инертный)" },
+    "description": "Эта странная пластина цвета обсидиана способна имитировать передовые технологии, используемые в современном автодоке, и может быть использована для создания рабочей копии в вашем святилище. Однако в своем текущем состоянии он инертен и сначала должен быть отпечатан на работающем автодоке. Для этого найдите автодок во время экспедиции и используйте меню строительства, чтобы отпечатать эту табличку.",
     "type": "GENERIC",
     "symbol": ")",
     "color": "light_cyan",
@@ -311,8 +311,8 @@
   },
   {
     "id": "warp_autodoc_active",
-    "name": { "str": "Autodoc copyplate (activated)", "str_pl": "Autodoc copyplates (activated)" },
-    "description": "This strange obsidian-colored plate is capable of mimicking the advanced tech found within a modern Autodoc, and can be used to create a working copy at your sanctuary. It has been successfully activated and can be used as the catalyst to create a new Autodoc at a location of your choosing using the construction menu. Be aware this cannot be safely moved once placed, and will also require you to add an adjacent couch, then convert it to an Autodoc couch.",
+    "name": { "str": "Копировальная табличка автодока (активна)" },
+    "description": "Эта странная пластина цвета обсидиана способна имитировать передовые технологии, используемые в современном автодоке, и может быть использована для создания рабочей копии в вашем святилище. Он был успешно активирован и может быть использован в качестве катализатора для создания нового автодока в выбранном вами месте с помощью меню строительства. Имейте в виду, что после установки его нельзя безопасно переместить, а также потребуется добавить соседнюю кушетку, а затем преобразовать ее в кушетку автодока.",
     "type": "GENERIC",
     "symbol": ")",
     "color": "light_cyan",
@@ -325,8 +325,8 @@
     "id": "warp_grassbag",
     "type": "AMMO",
     "category": "other",
-    "name": { "str_sp": "warped grass seeds" },
-    "description": "While these are certainly imbued with warp, they don't seem to have any supernatural powers beyond just growing quickly. A nice option if you want to re-plant grass on your island, for decoration's sake.",
+    "name": { "str_sp": "Пространственные семена травы" },
+    "description": "Хотя они, безусловно, пропитаны энергией искажённого пространства, они, похоже, не обладают никакими сверхъестественными способностями, кроме простого быстрого роста. Хороший вариант, если вы хотите заново посадить траву на своем острове для украшения.",
     "weight": "5 g",
     "volume": "5 ml",
     "count": 100,
@@ -342,8 +342,8 @@
     "id": "warptoken",
     "type": "AMMO",
     "category": "other",
-    "name": { "str_sp": "warp shards" },
-    "description": "A small quantity of airy-thin material that resembles flaked obsidian. It glints with a purplish shimmer that seems to stretch off the bounds of itself and into the air itself. Offered to the powers that be, one could exchange it for valuable artifacts.",
+    "name": { "str_sp": "осколок искажённого пространства" },
+    "description": "Небольшое количество воздушно-тонкого материала, напоминающего чешуйчатый обсидиан. Он мерцает пурпурным мерцанием, которое, кажется, простирается за пределы самого себя и в сам воздух. Содержит в себе силу искажённого пространства, его можно было обменять на ценные артефакты.",
     "weight": "5 g",
     "volume": "5 ml",
     "count": 1,

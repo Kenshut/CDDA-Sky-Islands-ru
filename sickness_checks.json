@@ -38,7 +38,7 @@
       { "u_add_effect": "warpsickness", "intensity": 6, "duration": "PERMANENT" },
       { "u_lose_effect": "warpdisintegration" },
       {
-        "u_message": "Your body shivers slightly as a warp pulse passes through it. Another pulse will hit in <global_val:readablesicknessintervals> minutes. Warp sickness won't set in for another <global_val:readablepulsesleft> pulses."
+        "u_message": "Ваше тело слегка дрожит, когда через него проходит вимпульс. Еще один импульс ударит через <global_val:readablesicknessintervals> минут. Искревление пространства не начнется еще <global_val:readablepulsesleft> пульсов."
       }
     ],
     "false_effect": [ { "run_eocs": [ "EOC_sicknesscheck1" ] } ]
@@ -52,7 +52,7 @@
       { "u_add_effect": "warpsickness", "intensity": 6, "duration": "PERMANENT" },
       { "u_lose_effect": "warpdisintegration" },
       {
-        "u_message": "Goosebumps cover your skin as a warp pulse passes through you. You're only one warp pulse from your deadline.",
+        "u_message": "Ваша кожа покрывается мурашками, когда через вас проходит импульс. Ты всего в одном импульсе от своего конца.",
         "popup": true
       }
     ],
@@ -67,7 +67,7 @@
       { "u_lose_effect": "warpdisintegration" },
       { "u_add_effect": "warpsickness", "intensity": 5, "duration": "PERMANENT" },
       {
-        "u_message": "A warp pulse passing through you twists your blood inside your veins and your eyes pulse in pain. You've overstayed your welcome and need to get home.",
+        "u_message": "Импульс, проходящий через тебя, скручивает твою кровь в венах, и твои глаза пульсируют от боли. Вы слишком долго тут пробыли, и вам нужно возвращаться домой.",
         "popup": true,
         "type": "bad"
       }
@@ -83,7 +83,7 @@
       { "u_lose_effect": "warpdisintegration" },
       { "u_add_effect": "warpsickness", "intensity": 4, "duration": "PERMANENT" },
       {
-        "u_message": "A warp pulse shudders through your head like a localized earthquake and your extremities surge with pain like they're peeling open. You need to get home as soon as possible.",
+        "u_message": "Импульс сотрясает вашу голову, как локальное землетрясение, и ваши конечности пронзает боль, как будто они разрываются. Тебе нужно вернуться домой как можно скорее.",
         "popup": true,
         "type": "bad"
       }
@@ -99,7 +99,7 @@
       { "u_lose_effect": "warpdisintegration" },
       { "u_add_effect": "warpsickness", "intensity": 3, "duration": "PERMANENT" },
       {
-        "u_message": "Another warp pulse rocks through you and your organs wrench themselves over. Existence is fracturing. You need to get home immediately.",
+        "u_message": "Еще один варп-импульс пронзает тебя, и твои органы выворачиваются наизнанку. Твоя жизнь разрушается. Тебе нужно немедленно возвращаться домой.",
         "popup": true,
         "type": "mixed"
       }
@@ -115,7 +115,7 @@
       { "u_add_effect": "warpsickness", "intensity": 2, "duration": "PERMANENT" },
       { "u_lose_effect": "warpdisintegration" },
       {
-        "u_message": "A sickening wet sound rips through you as another warp pulse hits. You can feel your whole body trying to pull itself apart, and if you wait any longer, it just might. If you want to live, you need to get home NOW!",
+        "u_message": "Тошнотворный влажный звук пронизывает тебя насквозь, когда ударяет еще один вимпульс. Вы можете почувствовать, как все ваше тело пытается разорваться на части, и если вы подождете еще немного, то вы умрёте. Если ты хочешь жить, тебе нужно вернуться домой прямо сейчас!",
         "popup": true,
         "type": "mixed"
       }
@@ -130,7 +130,7 @@
       { "u_add_effect": "warpsickness", "intensity": 1, "duration": "PERMANENT" },
       { "u_add_effect": "warpdisintegration", "intensity": 1, "duration": "PERMANENT" },
       {
-        "u_message": "As the warp pulse hits, you realize there are no words to describe how much trouble you're in. Your body is crumbling to wet paste and your blood is twisting into a viny tangle. All you know is pain. \nYou're not just dying, you're dying horribly. \nIf escape is already near you may survive against all odds, but oblivion is only moments away.",
+        "u_message": "Когда начинается варп-импульс, вы понимаете, что нет слов, чтобы описать, в какую ситуации вы попали. Твое тело превращается в мокрую пасту, а твоя кровь сворачивается в винный клубок. Все, что ты знаешь, - это боль.\nТы не просто умираешь, ты умираешь ужасной смертью. \nЕсли спасение уже близко, вы можете выжить, несмотря ни на что, но до забвения осталось всего несколько мгновений.",
         "popup": true,
         "type": "mixed"
       }

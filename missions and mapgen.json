@@ -406,9 +406,9 @@
   {
     "id": "MISSION_REACH_EXTRACT",
     "type": "mission_definition",
-    "name": { "str": "Reach one of the exit points!" },
+    "name": { "str": "Доберитесь до одной из точек выхода!" },
     "goal": "MGOAL_GO_TO",
-    "description": "If you want to get home with your stuff, you'll need to reach one of these nearby warp points. They're only things that can bring you back to your sanctuary island in one piece.",
+    "description": "Если вы хотите вернуться домой со своими вещами, вам нужно будет добраться до одной из этих точек искажения пространства. Это единственное, что может вернуть вас на ваш остров-убежище в целости и сохранности.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -419,9 +419,9 @@
   {
     "id": "MISSION_BONUS_TREASURE",
     "type": "mission_definition",
-    "name": { "str": "Find the warp shards!" },
+    "name": { "str": "Найди осколки искажённого пространства!" },
     "goal": "MGOAL_GO_TO",
-    "description": "A very small cluster of warp energy has left shards behind at this location. All you need to do is find and retrieve them. There may be threats nearby, but unlike most tasks, no special guards are on-site. A minimal reward, but little risk.",
+    "description": "Очень небольшое скопление энергии искривления пространства оставило <color_light_blue>осколки</color> в этом месте. Все, что вам нужно сделать, это найти и извлечь их. Поблизости могут быть угрозы, но, в отличие от большинства заданий, на месте нет специальной охраны. Минимальное вознаграждение, но небольшой риск.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -433,9 +433,9 @@
   {
     "id": "MISSION_BONUS_KILL_LIGHT",
     "type": "mission_definition",
-    "name": { "str": "Kill the warp-draining zombies!" },
+    "name": { "str": "Убейте зомбей, пожирающих искажённое пространство!" },
     "goal": "MGOAL_KILL_MONSTER",
-    "description": "A handful of zombies are congregating at a location where warp resonance is high. Clear them out for a minimal reward of warp shards.",
+    "description": "Горстка зомби собирается в месте, где высокий резонанс пространства. Очистите их за минимальную награду в виде <color_light_blue>осколков искажённого пространства</color>.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -459,7 +459,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -469,9 +469,9 @@
   {
     "id": "MISSION_BONUS_KILL_HORDE",
     "type": "mission_definition",
-    "name": { "str": "Kill the warp-draining horde!" },
+    "name": { "str": "Убейте орду, пожирающих искажённое пространство!" },
     "goal": "MGOAL_KILL_MONSTER",
-    "description": "A horde of low level zombies are congregating at a location where warp resonance is high. Clear them out for a small reward of warp shards.",
+    "description": "Орда низкоуровневых зомби собирается в месте, где высокий резонанс пространства. Очистите их за небольшую награду в виде <color_light_blue>осколков искажённого пространства</color>.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -495,7 +495,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -505,9 +505,9 @@
   {
     "id": "MISSION_BONUS_KILL_MID",
     "type": "mission_definition",
-    "name": { "str": "Kill the warp-draining evolved zombies!" },
+    "name": { "str": "Убейте эволюционировавших зомби, пожирающих искажённое пространство!" },
     "goal": "MGOAL_KILL_MONSTER",
-    "description": "A swarm of evolved zombies are congregating at a location where warp resonance is high. Clear them out for a medium reward of warp shards.",
+    "description": "Рой эволюционировавших зомби собирается в месте, где высокий резонанс пространства. Очистите их за среднюю награду в виде <color_light_blue>осколков искажённого пространства</color>.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -539,7 +539,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -549,9 +549,9 @@
   {
     "id": "MISSION_BONUS_KILL_MID_HORDE",
     "type": "mission_definition",
-    "name": { "str": "Kill the warp-draining evolved horde!" },
+    "name": { "str": "Убейте эволюционировавшую орду, пожирающих искажённое пространство!" },
     "goal": "MGOAL_KILL_MONSTER",
-    "description": "A huge horde of evolved zombies are congregating at a location where warp resonance is high. Clear them out for a large reward of warp shards.",
+    "description": "Огромная орда эволюционировавших зомби собирается в месте, где высокий резонанс пространства. Очистите их за большую награду в виде <color_light_blue>осколков искажённого пространства</color>.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -583,7 +583,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -593,9 +593,9 @@
   {
     "id": "MISSION_BONUS_KILL_HARD",
     "type": "mission_definition",
-    "name": { "str": "Kill the warp-draining fearsome zombies!" },
+    "name": { "str": "Убейте ужасных зомби, пожирающих искажённое пространство!" },
     "goal": "MGOAL_KILL_MONSTER",
-    "description": "A swarm of rather powerful zombies are congregating at a location where warp resonance is high. Clear them out for a large reward of warp shards.",
+    "description": "Рой довольно мощных зомби собирается в месте, где высокий резонанс пространства. Очистите их за большую награду в виде <color_light_blue>осколков искажённого пространства</color>.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -628,7 +628,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -638,9 +638,9 @@
   {
     "id": "MISSION_BONUS_KILL_ELITE",
     "type": "mission_definition",
-    "name": { "str": "Kill the warp-draining elite zombies!" },
+    "name": { "str": "Убейте элитных зомби, пожирающих искажённое пространство!" },
     "goal": "MGOAL_KILL_MONSTER",
-    "description": "A swarm of extremely dangerous zombies are congregating at a location where warp resonance is high. Clear them out for a very large reward of warp shards.",
+    "description": "Рой чрезвычайно опасных зомби собирается в месте, где высокий резонанс пространства. Очистите их за очень большую награду в виде <color_light_blue>осколков искажённого пространства</color>.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -673,7 +673,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -683,9 +683,9 @@
   {
     "id": "MISSION_BONUS_KILL_BOSS",
     "type": "mission_definition",
-    "name": { "str": "Kill the warp-draining zombie lord!" },
+    "name": { "str": "Убейте повелителя зомби, пожирающего искажённое пространство!" },
     "goal": "MGOAL_KILL_MONSTER",
-    "description": "A single supremely powerful zombie has been found at a location where warp resonance is high. Destroy it for a very large reward of warp shards.",
+    "description": "Единственный чрезвычайно могущественный зомби был найден в месте, где высокий резонанс пространства. Уничтожьте его за очень большую награду в виде <color_light_blue>осколков искажённого пространства</color>.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -707,7 +707,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -717,9 +717,9 @@
   {
     "id": "MISSION_BONUS_KILL_BOSS_MULTI",
     "type": "mission_definition",
-    "name": { "str": "Kill the warp-draining zombie superteam!" },
+    "name": { "str": "Убейте суперкоманду зомби, пожирающего искажённое пространство!" },
     "goal": "MGOAL_KILL_MONSTER",
-    "description": "A team of supremely powerful zombies has been found at a location where warp resonance is high. Destroy it for a very large reward of warp shards.",
+    "description": "Команда чрезвычайно могущественных зомби была обнаружена в месте, где высокий резонанс пространства. Уничтожьте его за очень большую награду в виде <color_light_blue>осколков искажённого пространства</color>.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -743,7 +743,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -753,9 +753,9 @@
   {
     "id": "MISSION_BONUS_KILL_BOSS_GROUP",
     "type": "mission_definition",
-    "name": { "str": "Kill the warp-draining zombie leader!" },
+    "name": { "str": "Убейте пожирающего искажённое пространство лидера зомби!" },
     "goal": "MGOAL_KILL_MONSTER",
-    "description": "A supremely powerful zombie has been found at a location where warp resonance is high. Be warned that it will be accompanied by an elite swarm! Destroy them all for a huge reward of warp shards.",
+    "description": "Чрезвычайно могущественный зомби был обнаружен в месте, где высокий резонанс пространства. Имейте в виду, что его будет сопровождать элитный рой! Уничтожьте их всех за огромную награду в виде <color_light_blue>осколков искажённого пространства</color>.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -780,7 +780,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -790,9 +790,9 @@
   {
     "id": "MISSION_BONUS_KILL_BOSS_HORDE",
     "type": "mission_definition",
-    "name": { "str": "Kill the warp-draining zombie horde lord!" },
+    "name": { "str": "Убейте повелителя орды зомби, пожирающего искажённое пространство!" },
     "goal": "MGOAL_KILL_MONSTER",
-    "description": "A supremely powerful zombie has been found at a location where warp resonance is high. Be warned that it will be accompanied by an massive horde of weaker zombies! Destroy them all for a huge reward of warp shards.",
+    "description": "Чрезвычайно могущественный зомби был обнаружен в месте, где высокий резонанс пространства. Имейте в виду, что его будет сопровождать огромная орда более слабых зомби! Уничтожьте их всех за огромную награду в виде <color_light_blue>осколков искажённого пространства</color>.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -817,7 +817,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -827,9 +827,9 @@
   {
     "id": "MISSION_BONUS_KILL_MIGO",
     "type": "mission_definition",
-    "name": { "str": "Kill the warp-draining mi-go threat!" },
+    "name": { "str": "Уничтожьте ми-го, пожирающего искажённое пространство!" },
     "goal": "MGOAL_KILL_MONSTER",
-    "description": "A group of lethal mi-gos are draining a location where warp resonance is high. Destroy them all for a very large reward of warp shards.",
+    "description": "Группа смертоносных миго осушает локацию, где высокий резонанс пространства. Уничтожьте их всех за очень большую награду в виде <color_light_blue>осколков искажённого пространства</color>.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -851,7 +851,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -861,9 +861,9 @@
   {
     "id": "MISSION_BONUS_KILL_MIGO_ELITE",
     "type": "mission_definition",
-    "name": { "str": "Kill the warp-draining mi-go overlord!" },
+    "name": { "str": "Убейте повелителя ми-го, пожирающего искажённое пространство!" },
     "goal": "MGOAL_KILL_MONSTER",
-    "description": "A group of lethal mi-gos are draining a location where warp resonance is high. Destroy them all for a very large reward of warp shards.",
+    "description": "Группа смертоносных миго осушает локацию, где высокий резонанс пространства. Уничтожьте их всех за очень большую награду в виде <color_light_blue>осколков искажённого пространства</color>.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -888,7 +888,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -898,9 +898,9 @@
   {
     "id": "MISSION_BONUS_ASSASSIN1",
     "type": "mission_definition",
-    "name": { "str": "Kill the armed interloper!" },
+    "name": { "str": "Убейте вооруженного нарушителя!" },
     "goal": "MGOAL_ASSASSINATE",
-    "description": "The warp has marked a single human being for death. They will likely carry a ranged weapon. They will be alone. Their sins are not your concern. All you need to know is that it must be done.",
+    "description": "искажённое пространство приговорило к смерти одно-единственное человеческое существо. Скорее всего, у него будет оружие дальнего боя. Он будет одни. Его грехи вас не касаются. Все, что вам нужно знать, - это то, что его нужно убить.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -920,7 +920,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -930,9 +930,9 @@
   {
     "id": "MISSION_BONUS_ASSASSIN2",
     "type": "mission_definition",
-    "name": { "str": "Kill the interloper!" },
+    "name": { "str": "Убейте незваного гостя!" },
     "goal": "MGOAL_ASSASSINATE",
-    "description": "The warp has marked a single human being for death. They will likely carry a melee weapon. They will be alone. Their sins are not your concern. All you need to know is that it must be done.",
+    "description": "искажённое пространство приговорило к смерти одно-единственное человеческое существо. Скорее всего, у него будет оружие ближнего боя. Он будет одни. Его грехи вас не касаются. Все, что вам нужно знать, - это то, что его нужно убить",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -952,7 +952,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -962,9 +962,9 @@
   {
     "id": "MISSION_BONUS_ASSASSIN3",
     "type": "mission_definition",
-    "name": { "str": "Kill the guarded interloper!" },
+    "name": { "str": "Убейте охраняемого нарушителя!" },
     "goal": "MGOAL_ASSASSINATE",
-    "description": "The warp has marked a single human being for death. They may be accompanied. Their sins are not your concern. All you need to know is that it must be done.",
+    "description": "искажённое пространство приговорило к смерти одно-единственное человеческое существо. Его могут сопровождать. Их грехи вас не касаются. Все, что вам нужно знать, - это то, что его нужно убить.",
     "difficulty": 0,
     "value": 0,
     "start": {
@@ -990,7 +990,7 @@
           ]
         },
         {
-          "u_message": "It's done. They're all dead. Warp shards filter in from seams in reality. Your reward rains down on you.",
+          "u_message": "Дело сделано. Они все мертвы. Осколки искажённого пространства просачиваются из швов в реальности. Ваша награда сыплется на вас дождем.",
           "type": "mixed"
         },
         { "u_spawn_item": "warptoken", "count": { "global_val": "var", "var_name": "totalbonus", "default": 1 } }
@@ -1000,8 +1000,8 @@
   {
     "id": "MISSION_BONUS_SLAUGHTER_ZED1",
     "type": "mission_definition",
-    "name": { "str": "Kill 10 Zombies this expedition" },
-    "description": "Zombies have absorbed latent energies which must be released into the stream of warp once more. Kill at least 10 zombified humans or creatures before returning to your sanctuary for bonus warp shards.",
+    "name": { "str": "Убейте 10 зомби в этой экспедиции" },
+    "description": "Зомби поглотили энергию искажённого пространства, которая должна быть снова освобождена. Убейте по крайней мере 10 зомбированных людей или существ, прежде чем вернуться в свое убежище за бонусными <color_light_blue>осколками искажённого пространства</color>.",
     "goal": "MGOAL_KILL_MONSTER_SPEC",
     "monster_species": "ZOMBIE",
     "monster_kill_goal": 10,
@@ -1012,8 +1012,8 @@
   {
     "id": "MISSION_BONUS_SLAUGHTER_ZED2",
     "type": "mission_definition",
-    "name": { "str": "Kill 50 Zombies this expedition" },
-    "description": "Zombies have absorbed latent energies which must be released into the stream of warp once more. Kill at least 50 zombified humans or creatures before returning to your sanctuary for bonus warp shards.",
+    "name": { "str": "Убейте 50 зомби в этой экспедиции" },
+    "description": "Зомби поглотили энергию искажённого пространства, которая должна быть снова освобождена. Убейте по крайней мере 50 зомбированных людей или существ, прежде чем вернуться в свое убежище за бонусными <color_light_blue>осколками искажённого пространства</color>.",
     "goal": "MGOAL_KILL_MONSTER_SPEC",
     "monster_species": "ZOMBIE",
     "monster_kill_goal": 50,
@@ -1024,8 +1024,8 @@
   {
     "id": "MISSION_BONUS_SLAUGHTER_ZED3",
     "type": "mission_definition",
-    "name": { "str": "Kill 100 Zombies this expedition" },
-    "description": "Zombies have absorbed latent energies which must be released into the stream of warp once more. Kill at least 100 zombified humans or creatures before returning to your sanctuary for bonus warp shards.",
+    "name": { "str": "Убейте 100 зомби в этой экспедиции" },
+    "description": "Зомби поглотили энергию искажённого пространства, которая должна быть снова освобождена. Убейте по крайней мере 100 зомбированных людей или существ, прежде чем вернуться в свое убежище за бонусными <color_light_blue>осколками искажённого пространства</color>.",
     "goal": "MGOAL_KILL_MONSTER_SPEC",
     "monster_species": "ZOMBIE",
     "monster_kill_goal": 100,
@@ -1036,8 +1036,8 @@
   {
     "id": "MISSION_BONUS_SLAUGHTER_MIGO",
     "type": "mission_definition",
-    "name": { "str": "Kill a Mi-Go this expedition" },
-    "description": "The mi-go have sucked up latent energies which must be released into the stream of warp once more. Kill at least one mi-go creature before returning to your sanctuary for bonus warp shards.",
+    "name": { "str": "Убей Ми-Го в этой экспедиции" },
+    "description": "Ми-го высосали энергию искажённого пространства, которая должна быть снова освобождена. Убейте по крайней мере одно существо миго, прежде чем вернуться в свое убежище за бонусными <color_light_blue>осколками искажённого пространства</color>.",
     "goal": "MGOAL_KILL_MONSTER_SPEC",
     "monster_species": "MIGO",
     "monster_kill_goal": 1,
@@ -1048,8 +1048,8 @@
   {
     "id": "MISSION_BONUS_SLAUGHTER_NETHER",
     "type": "mission_definition",
-    "name": { "str": "Kill 3 nether creatures this expedition" },
-    "description": "A rift to another dimension has drained latent energies which must be released into the stream of warp once more. Kill at least 3 nether-born creatures before returning to your sanctuary for bonus warp shards.",
+    "name": { "str": "Убейте 3 кошмаров в этой экспедиции" },
+    "description": "Разрыв в другое измерение истощил нить пространство, из-за чего в мир были выпущены 'кошмары', которые поглотили энергию искажённого пространства. Убейте по крайней мере 3 кошмаров, прежде чем вернуться в свое убежище за бонусными <color_light_blue>осколками искажённого пространства</color>.",
     "goal": "MGOAL_KILL_MONSTER_SPEC",
     "monster_species": "NETHER",
     "monster_kill_goal": 3,
@@ -1060,8 +1060,8 @@
   {
     "id": "MISSION_BONUS_SLAUGHTER_BIRD",
     "type": "mission_definition",
-    "name": { "str": "Kill 5 un-zombified birds this expedition" },
-    "description": "Are the birds around here... sparkling? It seems even the local wildlife has started absorbing latent warp energy. Kill at least 5 non-zombie birds of any kind before returning to your sanctuary for bonus warp shards.",
+    "name": { "str": "Убейте 5 незомбированных птиц в этой экспедиции" },
+    "description": "Птицы здесь... сверкают? Похоже, даже местная дикая природа начала поглощать энергию искажённого пространства. Убейте по крайней мере 5 птиц любого вида, не являющихся зомби, прежде чем вернуться в свое убежище за бонусными <color_light_blue>осколками искажённого пространства</color>.",
     "goal": "MGOAL_KILL_MONSTER_SPEC",
     "monster_species": "BIRD",
     "monster_kill_goal": 5,
@@ -1072,8 +1072,8 @@
   {
     "id": "MISSION_BONUS_SLAUGHTER_MAMMAL",
     "type": "mission_definition",
-    "name": { "str": "Kill 5 un-zombified mammals this expedition" },
-    "description": "Are the critters around here... sparkling? It seems even the local wildlife has started absorbing latent warp energy. Kill at least 5 non-zombie mammals of any kind before returning to your sanctuary for bonus warp shards.",
+    "name": { "str": "Убейте 5 незомбированных зверей в этой экспедиции" },
+    "description": "Здешние твари... сверкают? Похоже, даже местная дикая природа начала поглощать энергию искажённого пространства. Убейте по крайней мере 5 млекопитающих любого вида, не являющихся зомби, прежде чем вернуться в свое убежище за бонусными <color_light_blue>осколками искажённого пространства</color>.",
     "goal": "MGOAL_KILL_MONSTER_SPEC",
     "monster_species": "MAMMAL",
     "monster_kill_goal": 5,

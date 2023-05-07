@@ -4,7 +4,7 @@
     "id": "awayfromhome",
     "name": { "str": "Earthside" },
     "//": "Basically just a flag to show you're away from base. This trait on your character is what tells the EOC to start increasing your warp sickness.",
-    "description": "You are away from your sanctuary island. Over time, you will begin to succumb to the intangible miasma of the world below, and your stats will suffer. You have several hours after warp before this becomes a problem, after which it will rapidly get worse until you warp home or die.",
+    "description": "Вы находитесь вдали от своего острова-убежища. Со временем вы начнете поддаваться неосязаемым миазмам подземного мира, и ваши характеристики пострадают. У вас есть несколько часов после деформации, прежде чем это станет проблемой, после чего ситуация будет быстро ухудшаться, пока вы не вернетесь домой или не умрете.",
     "points": 0,
     "valid": false,
     "purifiable": false
@@ -13,34 +13,34 @@
     "type": "effect_type",
     "id": "warpsickness",
     "//": "This is the warp sickness effect which makes it hard to stay away from base for too long. Intensity 1 is the strongest while Intensity 5 is the weakest and has no penalties. This effect does not increase or decrease on its own, rather it is controlled exclusively by a recurring EOC which checks how long you've been away from base and intermittently moves you towards intensity 1. The decay messages don't seem to display this way but they're left here anyway.",
-    "name": [ "Warp Disintegration!", "Warp Necrosis", "Warp Debilitation", "Warp Sickness", "Warp Nausea", "Warp Stability" ],
+    "name": [ "Искривление пространства дезинтегрируется!", "Искривление пространства - некроз", "Искривление пространства истощается", "Искривление пространства - Болезнь", "Искривление пространства - Тошнота", "Искривление пространства стабильно" ],
     "desc": [
-      "You're going to die. And if you weren't busy leaking blood out of every pore, you'd find a better way to emphasize just how badly you're dying. Your only hope is to return home immediately.",
-      "The very fabric of your being is unraveling! You're in dire straits. You need to get back to your sanctuary island NOW!",
-      "You've stayed earthside WAY too long! Your body barely responds and your senses are slush. The world itself feels barbed and frayed, and the very air is like breathing fiberglass. If you want to survive, you need to warp home as soon as possible.",
-      "You've stayed earthside too long. Your body aches and your senses are dulling. Every step feels like you're walking through thick mud and breathing hot tar. You should warp home as soon as you can, or this is only going to get worse.",
-      "You've overstayed your time earthside. It's getting hard to concentrate, there's a painful ringing in your ears, and your muscles sting and jolt. Every action feels delayed. You need to warp home to refresh yourself, or this is going to get worse. Probably within just a few hours.",
-      "You're fresh from your stay at your sanctuary island. The intangible miasma of terra firma currently has no effect on you, and you feel fine. This should last for several hours. Stay too long, however, and you'll gradually begin to suffer ever-worsening debilitating effects."
+      "Ты сейчас умрешь. И если бы вы не были заняты тем, что истекали кровью из каждой поры, вы бы нашли лучший способ подчеркнуть, насколько тяжело вы умираете. Ваша единственная надежда - немедленно вернуться домой.",
+      "Сама ткань вашего существа распадается! Ты в отчаянном положении. Тебе нужно немедленно возвращаться на свой остров-убежище!",
+      "Ты слишком долго пробыл на земле! Ваше тело почти не реагирует, а ваши чувства погружены в слякоть. Сам мир кажется колючим и изношенным, а сам воздух похож на дышащее стекловолокно. Если вы хотите выжить, вам нужно вернуться домой как можно скорее.",
+      "Ты слишком долго пробыл на земле. Ваше тело болит, а чувства притупляются. При каждом шаге кажется, что ты идешь по густой грязи и дышишь горячей смолой. Тебе следует отправиться домой как можно скорее, иначе будет только хуже.",
+      "Вы слишком долго пробыли на земле. Становится трудно сосредоточиться, в ушах возникает болезненный звон, а мышцы покалывает и сотрясает. Каждое действие кажется отложенным. Тебе нужно вернуться домой, чтобы освежиться, иначе будет еще хуже. Вероятно, всего через несколько часов.",
+      "Вы только что вернулись с вашего острова-убежища. Неосязаемые миазмы почвы в настоящее время не оказывают на вас никакого воздействия, и вы чувствуете себя прекрасно. Этого должно хватить на несколько часов. Однако оставайтесь здесь слишком долго, и вы постепенно начнете страдать от все усиливающихся изнуряющих эффектов."
     ],
     "decay_messages": [
       [
-        "There are no words to describe how much trouble you're in. Your body is crumbling to wet paste and your blood is twisting into a viny tangle. All you know is pain. You're not just dying, you're dying horribly. Your only hope is escape to your sanctuary, but oblivion is only moments away.",
+        "Нет слов, чтобы описать, в какую передрягу вы попали. Твое тело превращается в мокрую пасту, а твоя кровь скручивается в клубок виноградной лозы. Все, что ты знаешь, - это боль. Ты не просто умираешь, ты умираешь ужасной смертью. Ваша единственная надежда - сбежать в свое убежище, но до забвения осталось всего несколько мгновений.",
         "bad"
       ],
       [
-        "You taste blood and your eyes sink back into their sockets. You've stayed out too long. Your warp sickness is about to consume you entirely and you're falling apart at the seams. Get home NOW!",
+        "Ты чувствуешь вкус крови, и твои глаза снова проваливаются в орбиты. Ты слишком долго отсутствовал. Твоя варп-болезнь вот-вот поглотит тебя целиком, и ты разваливаешься по швам. Возвращайся домой СЕЙЧАС же!",
         "bad"
       ],
       [
-        "The ravages of the world intensify. Everything hurts and existence is a surreal wash of pain. Your warp sickness is unbearable. You need to get home as soon as possible.",
+        "Разрушения в мире усиливаются. Все причиняет боль, и существование - это сюрреалистическая волна боли. Твоя варп-болезнь невыносима. Тебе нужно вернуться домой как можно скорее.",
         "bad"
       ],
       [
-        "The bile suddenly rises in your throat and your fingers feel like they're peeling themselves open. Your warp sickness is getting worse. You should get home soon.",
+        "К горлу внезапно подступает желчь, и кажется, что пальцы сами собой разжимаются. Твоя варп-болезнь становится все хуже. Тебе следует поскорее вернуться домой.",
         "bad"
       ],
       [
-        "The whole world shimmers in front of your eyes. Everything feels slow and sticky. Warp sickness is setting in. You should focus on getting home.",
+        "Весь мир мерцает у вас перед глазами. Все кажется медленным и липким. У вас начинается варп-болезнь. Тебе следует сосредоточиться на том, чтобы добраться домой.",
         "bad"
       ]
     ],
@@ -52,11 +52,11 @@
   {
     "id": "warpdisintegration",
     "type": "effect_type",
-    "name": [ "Disintegrating!" ],
+    "name": [ "Распадающийся!" ],
     "//": "This is a very bad effect that will kill you in short order by damaging your torso over time. It is only activated by the recurring EOC which checks how long you've been away from base, and always at the same time that you reach warp sickness intensity 1.",
-    "desc": [ "Prolonged warp is destroying you. You're coming apart." ],
-    "apply_message": "You're being unmade!",
-    "remove_message": "The rending of the warp has finally abated. You feel like you exist again.",
+    "desc": [ "Длительный искажение пространства разрушает вас. Ты разваливаешься на части." ],
+    "apply_message": "Тебя уничтожают!",
+    "remove_message": "Разрыв искажение пространства наконец-то прекратился. Ты чувствуешь, что снова существуешь.",
     "show_intensity": false,
     "rating": "bad",
     "max_intensity": 1,
@@ -74,12 +74,12 @@
   {
     "type": "effect_type",
     "id": "warpcloak",
-    "name": [ "Warpcloaked" ],
+    "name": [ "эфирная форма" ],
     "//": "A simple invisibility that decays on its own and whose duration is set in the teleport to world EOCs.",
     "desc": [
-      "You are invisible for a very brief time. Now's your chance to get to cover. You're also incorporeal enough to not take fall damage, but hopefully that won't be relevant."
+      "Вы невидимы очень короткое время. Теперь у тебя есть шанс добраться до укрытия. Вы также достаточно бестелесны, чтобы не получать урона при падении, но, надеюсь, это не будет иметь значения."
     ],
     "flags": [ "INVISIBLE", "FEATHER_FALL" ],
-    "remove_message": "You fully materialize. You're not invisible anymore!"
+    "remove_message": "Вы полностью материализуетесь. Теперь тебя видят!"
   }
 ]

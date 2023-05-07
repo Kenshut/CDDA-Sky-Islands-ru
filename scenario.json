@@ -2,18 +2,18 @@
   {
     "type": "scenario",
     "id": "scenario_warper",
-    "name": "Warper",
+    "name": "Искажённый",
     "flags": [ "LONE_START", "CHALLENGE" ],
     "points": 0,
-    "description": "As if the world ending wasn't enough, it seems some kind of extradimensional powers that be have taken an interest in you. You have been placed on a floating island high above the Earth, safe but isolated. Only by using the reality-bending powers of warp technology can you visit the world below in brief, randomly-targeted excursions below. Venture down, gather supplies, and return with only what you can carry to build up your home base and your stash over time. The powers of the warp make you unable to ever truly die, so on failing such an expedition, you will simply lose all items and equipment you were carrying and be swiftly returned home at low health.",
-    "start_name": "Warper",
+    "description": "Как будто конца света было недостаточно, похоже, что какие-то сверхпространственные силы проявили к вам интерес. Вы были помещены на плавучий остров высоко над Землей, безопасный, но изолированный. Только используя искажающие реальность возможности технологии, вы сможете посетить подземный мир во время кратких, случайно выбранных экскурсий, описанных ниже. Отправляйтесь вниз, соберите припасы и возвращайтесь только с тем, что сможете унести, чтобы со временем создать свою домашнюю базу и свой тайник. Силы искажённого пространства лишают вас возможности умереть по-настоящему, поэтому, провалив такую экспедицию, вы просто потеряете все предметы и снаряжение, которые были при вас, и будете быстро возвращены домой с низким уровнем здоровья.",
+    "start_name": "Искажённый",
     "allowed_locs": [ "sloc_skyisland" ],
     "eoc": [ "scenario_warp_begins" ]
   },
   {
     "type": "start_location",
     "id": "sloc_skyisland",
-    "name": "Sky Island",
+    "name": "Небесный остров",
     "terrain": [ "sky_island_core" ]
   },
   {
