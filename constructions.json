@@ -162,41 +162,41 @@
   {
     "type": "construction_group",
     "id": "sow_grass",
-    "name": "Cover soil with grass"
+    "name": "Сеять траву"
   },
   {
     "type": "construction_group",
     "id": "infinitree_sticks",
-    "name": "Pluck Infinitree sticks"
+    "name": "Собрать палок с бесконечного дерева"
   },
   {
     "type": "construction_group",
     "id": "infinitree_chop",
-    "name": "Chop some wood from Infinitree"
+    "name": "Отрубить немного древесины с бесконечного дерева"
   },
   {
     "type": "construction_group",
     "id": "autodoc_copy",
-    "name": "Store Autodoc onto copyplate"
+    "name": "Сохранить автодок на копировальную табличку"
   },
   {
     "type": "construction_group",
     "id": "autodoc_paste",
-    "name": "Place Autodoc from copyplate"
+    "name": "Разместить автодок при помощи копировальной таблички"
   },
   {
     "type": "construction_group",
     "id": "autodoc_couch_conversion",
-    "name": "Convert sofa into Autodoc couch"
+    "name": "Преобразовать кушетку в кушетку автодока"
   },
   {
     "type": "construction_group",
     "id": "infinitree_growing",
-    "name": "Plant Infinitree"
+    "name": "Посадить бесконечное дерево"
   },
   {
     "type": "construction_group",
     "id": "build_sofa",
-    "name": "Build sofa"
+    "name": "Построить кушетку"
   }
 ]
