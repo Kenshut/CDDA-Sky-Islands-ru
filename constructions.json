@@ -187,7 +187,7 @@
   {
     "type": "construction_group",
     "id": "autodoc_couch_conversion",
-    "name": "Преобразовать кушетку в кушетку автодока"
+    "name": "Преобразовать диван в кушетку автодока"
   },
   {
     "type": "construction_group",
@@ -197,6 +197,6 @@
   {
     "type": "construction_group",
     "id": "build_sofa",
-    "name": "Построить кушетку"
+    "name": "Построить диван"
   }
 ]
