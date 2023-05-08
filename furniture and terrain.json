@@ -103,8 +103,7 @@
       "items": [
         { "item": "warptoken", "count": 10 }
       ]
-    },
-    "crafting_pseudo_item": "fakeitem_infinitree1"
+    }
   },
   {
     "type": "terrain",
@@ -116,8 +115,7 @@
     "color": "brown",
     "move_cost": 0,
     "coverage": 80,
-    "flags": [ "NOITEM", "TRANSPARENT" ],	
-    "crafting_pseudo_item": "fakeitem_infinitree1"
+    "flags": [ "NOITEM", "TRANSPARENT" ]
   },
   {
     "type": "terrain",
@@ -129,7 +127,6 @@
     "color": "brown",
     "move_cost": 0,
     "coverage": 80,
-    "flags": [ "NOITEM", "TRANSPARENT" ],	
-    "crafting_pseudo_item": "fakeitem_infinitree1"
+    "flags": [ "NOITEM", "TRANSPARENT" ]
   }
 ]
